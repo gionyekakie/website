@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+
+        .img-logo{
+            width: 90px;
+            
+            /*border: 3px black solid ;
+            border-radius: 10px;*/
+            
+        }
+        .logo{
+            gap: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        header{
+            display: flex;
+            flex-direction: row;
+            /*gap: 30px;*/
+            justify-content: space-between;
+            background-color: rgb(51, 107, 107);
+            color: white;
+            padding: 15px;
+        }
+
+        nav{
+            padding-top: 60px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            
+            
+        }
+
+        #header-align{
+            justify-content: space-between;
+
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        a:hover{
+            background-color: rgb(147, 173, 164);
+            text-decoration: underline;
+        }
+
+
+        #style-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+    padding: 2.5%;
+    margin-top: 15vh;
+    
+}
+
+#nav-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.book{
+    background-color: cadetblue;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    border: 3px cadetblue solid;
+    padding: 5px;
+    margin-left: 6px;
+    
+}
+
+/*#list{
+    
+    font-family: "Raleway", serif;
+    
+
+}*/
+
+section{
+    gap: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.booking-img{
+    width: 200px;
+    height: 200px;
+}
+
+.booking-link{
+    color: #5085c7;
+    
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+}
+
+#offers{
+    text-align: center;
+   margin-top: 30px;
+    background-color: cadetblue;
+    color: white;
+    padding: 6px;
+    border: 3px cadetblue solid;
+    border-radius: 10px;
+}
+
+
+table{
+    margin: auto;
+    margin-top: 60px;
+    border-collapse: collapse;
+    width: 60vw;
+    border: 3px black solid;
+    
+}
+
+th,td{
+    border: 3px black solid;
+    padding: 10px;
+    text-align: center;
+}
+
+
+body p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <img src="https://api.sherbert.cimpress.io/v2/assets/LBEiDHYIpNqw6m1KSJFTQ~200/webPreview?signature=762d1dcd6a932cde198d52347ef3d375f5e49da4" class="img-logo"/>
+        <h1>Hair Haven</h1>
+    </div>
+
+<div>
+        <nav>
+
+            <a href="A1Gabriella.html">Home <i class="bi bi-house-door"></i> </a>
+            <a href="Shop.html">Shop Hair and Products <i class="bi bi-cart4"></i> </a>
+            <a href="#" >Contact Us <i class="bi bi-telephone"></i> </a>
+
+
+
+        </nav> </div>
+    </header>
+    
+        <h2 class="book">How to Book an Appointment</h2>
+        <ol id="list">
+            <li>Select the service you desire from this page.</li>
+            <li>Write the specifications and include add on's if any.</li>
+            <li>Choose a date and time that fits your schedule.</li>
+            <li>Wait for it to process and check if the time is available.</li>
+            <li>Provide the required info requested.</li>
+            <li>Pay a 20% deposit to secure your appointment.</li>
+            <li>Arrive on time with your confirmation email and enjoy your hair transformation!!</li>
+ </ol>
+    <section>
+        <div>
+        <img src="https://i.pinimg.com/474x/f2/b0/31/f2b031afda71ffb4aad1bea090456fb4.jpg" class="booking-img"/>
+        <h3>Wig Installation</h3>
+        
+        <a href="#" class="booking-link">Cost & Add on's</a>
+        <a href="#" class="booking-link">Schedule Appointment</a>
+    
+    </div>
+
+
+    <div>
+        <img src="https://i.pinimg.com/474x/ac/41/a8/ac41a83935f4c2f445ddb0b512235ad3.jpg"  class="booking-img"/>
+        <h3>Braids</h3>
+        
+        <a href="#" class="booking-link">Cost & Add on's</a>
+        <a href="#" class="booking-link">Schedule Appointment</a>
+    
+    </div>
+
+    <div>
+        <img src="https://i.pinimg.com/474x/ea/53/8a/ea538a671dde2d87459e5cce2080f130.jpg"  class="booking-img"/>
+        <h3>Sew-in's</h3>
+        
+        <a href="#" class="booking-link">Cost & Add on's</a>
+        <a href="#" class="booking-link">Schedule Appointment</a>
+   
+    </div>
+
+
+    <div>
+        <img src="https://i.pinimg.com/474x/33/5a/59/335a593f3e4a716cc0b4b908db809f78.jpg"  class="booking-img"/>
+        <h3>Twists</h3>
+       
+        <a href="#" class="booking-link">Cost & Add on's</a>
+        <a href="#" class="booking-link">Schedule Appointment</a>
+    
+    </div>
+
+    <div>
+        <img src="https://i.pinimg.com/474x/78/15/31/781531e2a56db0f9e79be428afbf1c2b.jpg"  class="booking-img"/>
+        <h3>Cornrows</h3>
+        
+        <a href="#" class="booking-link">Cost & Add on's</a>
+        <a href="#" class="booking-link">Schedule Appointment</a>
+    
+    </div>
+
+    <div>
+        <img src="https://i.pinimg.com/474x/1c/d8/f7/1cd8f7adbe275c3a917552f4731ea11b.jpg"  class="booking-img"/>
+        <h3>Ponytails</h3>
+        
+        <a href="#" class="booking-link">Cost & Add on's</a>
+        <a href="#" class="booking-link">Schedule Appointment</a>
+    
+    </div>
+
+
+</section>
+
+<h2 id="offers">OFFERS AVAILABLE  <i class="bi bi-arrow-down"></i> <i class="bi bi-arrow-down"></i> <i class="bi bi-arrow-down"></i></h2>
+
+<table>
+    <tr>
+        <th>Offers</th>
+        <th>Discount</th>
+        <th>Valid Until</th>
+        <th>Discount Code</th>
+    </tr>
+
+    <tr>
+        <td>New Customer</td>
+        <td>40% Off</td>
+        <td>December 30, 2025</td>
+        <td>WELCME25</td>
+ </tr>
+ <tr>
+    <td>Purchase up $60 of hair Products</td>
+    <td>Free Shipping</td>
+    <td>Ongoing</td>
+    <td>Applied at Checkout</td>
+</tr>
+<tr>
+    <td>Referral Bonus</td>
+    <td>$15 Credit</td>
+    <td>Ongoing</td>
+    <td>Automatically Applied</td>
+</tr>
+</table>
+
+
+
+
+    <footer>
+        <p>Find Us</p>
+        <div id="style-footer">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-snapchat"></i>
+    </div>
+    <div id="nav-footer">
+        <a href="A1Gabriella.html">Home</a>
+    <a href="Appointment.html">Book Appointment </a>
+    <a href="Shop.html">Shop Hair and Products  </a>
+    <a href="#" >Contact Us  </a>
+    </div>
+    
+    <p><i class="bi bi-c-circle"></i>Hair Haven</p>
+    
+    
+    </footer>
+</body>
+</html>
